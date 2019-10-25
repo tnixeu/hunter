@@ -12,7 +12,7 @@ nng
 
 -  `Official <https://nanomsg.github.io/nng/index.html>`__
 -  `Example <https://github.com/cpp-pm/hunter/blob/master/examples/nng/CMakeLists.txt>`__
--  Added in PR `pr-45 <https://github.com/cpp-pm/hunter/pull/45>`__
+-  Added by `tnixeu <https://github.com/tnixeu>`__ (`pr-45 <https://github.com/cpp-pm/hunter/pull/45>`__)
 
 .. literalinclude:: /../examples/nng/CMakeLists.txt
   :language: cmake
