@@ -47,7 +47,7 @@ matrix:
 
     - os: linux
       env: >
-        TOOLCHAIN=gcc-8-cxx17.cmake
+        TOOLCHAIN=gcc-8-cxx17
         PROJECT_DIR=examples/glm
 
     - os: linux
