@@ -76,7 +76,12 @@ include(GNUInstallDirs)
 
 # glm use custom bundled GNUInstallDirs module so we have to
 # set correct value explicitly
-hunter_cmake_args(glm CMAKE_ARGS CMAKE_INSTALL_LIBDIR=${CMAKE_INSTALL_LIBDIR})
+hunter_cmake_args(
+    glm 
+    CMAKE_ARGS 
+        CMAKE_INSTALL_LIBDIR=${CMAKE_INSTALL_LIBDIR}
+        GLM_TEST_ENABLE=OFF
+)
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 hunter_cacheable(glm)
