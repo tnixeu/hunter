@@ -22,6 +22,7 @@ addons:
       - python3-pip
       - python3-setuptools
       - g++-7
+      - g++-8
 
 dist:
   - xenial
@@ -39,23 +40,23 @@ matrix:
         TOOLCHAIN=clang-cxx17
         PROJECT_DIR=examples/glm
 
-     - os: linux
-       env: >
-         TOOLCHAIN=gcc-7-cxx17
-         PROJECT_DIR=examples/glm
+    - os: linux
+      env: >
+        TOOLCHAIN=gcc-7-cxx17
+        PROJECT_DIR=examples/glm
 
-     - os: linux
-       env: >
-         TOOLCHAIN=gcc-8-cxx17.cmake
-         PROJECT_DIR=examples/glm
+    - os: linux
+      env: >
+        TOOLCHAIN=gcc-8-cxx17.cmake
+        PROJECT_DIR=examples/glm
 
     - os: linux
       env: >
         TOOLCHAIN=android-ndk-r17-api-24-arm64-v8a-clang-libcxx14
         PROJECT_DIR=examples/glm
 
-     - os: linux
-       env: >
+    - os: linux
+      env: >
          TOOLCHAIN=analyze-cxx17
          PROJECT_DIR=examples/glm
 
