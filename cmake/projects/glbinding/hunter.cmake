@@ -15,9 +15,9 @@ hunter_add_version(
     VERSION
     "3.1.0-p0"
     URL
-    "https://github.com/tnixeu/glbinding/archive/glbinding-v3.1.0-p0.zip"
+    "https://github.com/tnixeu/glbinding/archive/glbinding-3.1.0.zip"
     SHA1
-    0914870b8375539bdd3e02d8e349c53b9bf8da71
+    eff54ecf30305ce264c729480a18b7cc81f59058
 )
 
 hunter_add_version(
