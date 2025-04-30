@@ -1,0 +1,29 @@
+[
+    {
+        "id": 41346204038,
+        "run_id": 14731358999,
+        "workflow_name": "CI",
+        "head_branch": "pr.cxx_23_support",
+        "run_url": "https://api.github.com/repos/tnixeu/hunter/actions/runs/14731358999",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOGXIekM8AAAAJoG0Bhg",
+        "head_sha": "035f1074dea9f69d9ba7d3f5c558f840891655c3",
+        "url": "https://api.github.com/repos/tnixeu/hunter/actions/jobs/41346204038",
+        "html_url": "https://github.com/tnixeu/hunter/actions/runs/14731358999/job/41346204038",
+        "status": "completed",
+        "conclusion": "cancelled",
+        "created_at": "2025-04-29T12:34:59Z",
+        "started_at": "2025-04-29T12:34:59Z",
+        "completed_at": "2025-04-29T12:35:01Z",
+        "name": "Boost-charconv android-ndk-r17-api-24-arm64-v8a-clang-libcxx14 ubuntu-20.04",
+        "steps": [],
+        "check_run_url": "https://api.github.com/repos/tnixeu/hunter/check-runs/41346204038",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 0,
+        "runner_name": "",
+        "runner_group_id": 0,
+        "runner_group_name": ""
+    }
+]
